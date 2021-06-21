@@ -7,7 +7,8 @@
   <Image>favicon.png</Image>
   <Language>fr</Language>
   <InputEncoding>UTF-8</InputEncoding>
-  <Url type="text/html" template="https://laughing-brown-da7b02.netlify.app/search.html?s={searchTerms}"/>
-  <moz:SearchForm>https://laughing-brown-da7b02.netlify.app/search.html</moz:SearchForm>
+      <Url type="text/html" method="get" template="https://laughing-brown-da7b02.netlify.app/?q={searchTerms}" />
+  <!-- <Url type="text/html" template="https://laughing-brown-da7b02.netlify.app/search.html?s={searchTerms}"/> -->
+  <moz:SearchForm>https://laughing-brown-da7b02.netlify.app/</moz:SearchForm>
 </OpenSearchDescription>
 
