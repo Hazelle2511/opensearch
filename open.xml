@@ -7,5 +7,5 @@
   <Image>favicon.png</Image>
   <Language>fr</Language>
   <InputEncoding>UTF-8</InputEncoding>
-  <Url type="text/html" template="https://laughing-brown-da7b02.netlify.app/search/tag/{searchTerms}"/>
+  <Url type="text/html" template="https://laughing-brown-da7b02.netlify.app/search/?q={searchTerms}"/>
 </OpenSearchDescription>
